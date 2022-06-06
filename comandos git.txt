@@ -54,8 +54,11 @@ git push (para postar o arquivo mergido)
 
 git checkout -b copiamaster master - cria uma branch, copiando a branch master.
 
+----------------------------------
 
+touch .gitignore - cria arquivo .gitignore
 
+criei e adicionei a pasta segredos e o arquivos senhas.txt ao arquivo .gitignore
 
 
 
