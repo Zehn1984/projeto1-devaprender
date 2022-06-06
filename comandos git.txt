@@ -52,6 +52,9 @@ git merge nome (onde nome é o nome da branch, neste caso git merge staging)
 
 git push (para postar o arquivo mergido)
 
+git checkout -b copiamaster master - cria uma branch, copiando a branch master.
+
+
 
 
 
