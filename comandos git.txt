@@ -21,8 +21,10 @@ Criação de repositorio e envio dos arquivos para o github:
 *** A partir dai, qualquer modificação que quiser enviar, basta seguir os passos 3, 4 e 7 novamente (git add ., git commit "msg", git push) (add, commit e push).
 
 ----------------------------------
+ver versoes commitadas e voltar para versoes antigas:
 
-ver versoes do codigo - git reflog
+git reflog
+
 saida: {033154b (HEAD -> master, origin/master) HEAD@{0}: commit: Adicionado novas linhas de texto ao arquivo 'comandos git.txt
 144da88 HEAD@{1}: commit (initial): Adicionando arquivo 'comandosgit.txt' ao repositorio}
 
@@ -30,14 +32,25 @@ git reset --hard 144da88 - voltar à versao anterior do codigo
 
 git reset --hard 033154b - voltar à versao principal do codigo
 
+----------------------------------
+
 git branch - lista as branchs (que são como galhos do programa, ou versoes paralelas)
 
 git branch nome - onde nome é o nome da nova branch, nesse caso, 'git branch staging'.
 
 git checkout nome - seleciona a nova branch. a partir dai, qualquer alteração seguindo os passos 3, 4 e 7 do codigo irá para a branch 'staging'.
 
+----------------------------------
 
+Para fazer merge da branch master com a staging, siguiu-se os passos:
 
+git pull master (puxar os dados atualizados da branch selecionada)
+
+git checkout master (para garantir que estamos na branch master antes de fazer o merge)
+
+git merge nome (onde nome é o nome da branch, neste caso git merge staging)
+
+git push (para postar o arquivo mergido)
 
 
 
