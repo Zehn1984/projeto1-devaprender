@@ -1,0 +1,13 @@
+Abrir um diretorio onde deseja começar o repositório, clicar com botão direito do mouse e selecionar "Start Git Bash here".
+
+ordem cronológica:
+
+1 - digita ro comando "git init" (inicia o repositorio na pasta).
+
+2 - criar algum arquivo em python, salva-lo (estou usando este arquivo txt para testar)
+
+3 - git add "comandos git.txt" - para adicionar o arquivo para a lista de commit (pode-se usar "git add ." para adicionar todos os arquivos)
+
+
+
+
