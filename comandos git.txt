@@ -1,6 +1,6 @@
 Abrir um diretorio onde deseja começar o repositório, clicar com botão direito do mouse e selecionar "Start Git Bash here".
 
-ordem cronológica:
+Criação de repositorio e envio dos arquivos para o github:
 
 1 - digita ro comando "git init" (inicia o repositorio na pasta).
 
@@ -20,6 +20,8 @@ ordem cronológica:
 
 *** A partir dai, qualquer modificação que quiser enviar, basta seguir os passos 3, 4 e 7 novamente (git add ., git commit "msg", git push) (add, commit e push).
 
+----------------------------------
+
 ver versoes do codigo - git reflog
 saida: {033154b (HEAD -> master, origin/master) HEAD@{0}: commit: Adicionado novas linhas de texto ao arquivo 'comandos git.txt
 144da88 HEAD@{1}: commit (initial): Adicionando arquivo 'comandosgit.txt' ao repositorio}
@@ -27,6 +29,15 @@ saida: {033154b (HEAD -> master, origin/master) HEAD@{0}: commit: Adicionado nov
 git reset --hard 144da88 - voltar à versao anterior do codigo
 
 git reset --hard 033154b - voltar à versao principal do codigo
+
+git branch - lista as branchs (que são como galhos do programa, ou versoes paralelas)
+
+git branch nome - onde nome é o nome da nova branch, nesse caso, 'git branch staging'.
+
+git checkout nome - seleciona a nova branch. a partir dai, qualquer alteração seguindo os passos 3, 4 e 7 do codigo irá para a branch 'staging'.
+
+
+
 
 
 
