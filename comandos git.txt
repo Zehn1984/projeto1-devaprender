@@ -18,7 +18,15 @@ ordem cronológica:
 
 8 - Voltando ao link "https://github.com/Zehn1984/projeto1-devaprender", observamos que há um alerta sobre um push recente na branch "master". clicar no icone de branches "main" e selecionar a branch "master" para ver os arquivos enviados.
 
+*** A partir dai, qualquer modificação que quiser enviar, basta seguir os passos 3, 4 e 7 novamente (git add ., git commit "msg", git push) (add, commit e push).
 
+ver versoes do codigo - git reflog
+saida: {033154b (HEAD -> master, origin/master) HEAD@{0}: commit: Adicionado novas linhas de texto ao arquivo 'comandos git.txt
+144da88 HEAD@{1}: commit (initial): Adicionando arquivo 'comandosgit.txt' ao repositorio}
+
+git reset --hard 144da88 - voltar à versao anterior do codigo
+
+git reset --hard 033154b - voltar à versao principal do codigo
 
 
 
