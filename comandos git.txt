@@ -4,9 +4,23 @@ ordem cronológica:
 
 1 - digita ro comando "git init" (inicia o repositorio na pasta).
 
-2 - criar algum arquivo em python, salva-lo (estou usando este arquivo txt para testar)
+2 - criar algum arquivo em python, salva-lo (estou usando este arquivo txt para testar) pode-se criar e colocar varios arquivos, fotos, txt, planilhas, etc.
 
 3 - git add "comandos git.txt" - para adicionar o arquivo para a lista de commit (pode-se usar "git add ." para adicionar todos os arquivos)
+
+4 - git commit -m "adicionando arquivo 'comandos git.txt' ao repositorio"
+
+5 - Criar um repositorio no github referente a esse commit pelo link: https://github.com/new. Logo após, copie e cole o link da pagina html do repositório recém criado, neste nosso caso foi "https://github.com/Zehn1984/projeto1-devaprender".
+
+6 - git remote add origin https://github.com/Zehn1984/projeto1-devaprender - comando git para indicar para onde os arquivos serão enviados.
+
+7 - git push --set-upstream origin master - efetivando a transferencia dos arquivos. na segunda vez bastará apenas usar "git push". talvez seja necessario logar com browser e fazer a conexao do git ao github na primeira vez.
+
+8 - Voltando ao link "https://github.com/Zehn1984/projeto1-devaprender", observamos que há um alerta sobre um push recente na branch "master". clicar no icone de branches "main" e selecionar a branch "master" para ver os arquivos enviados.
+
+
+
+
 
 
 
